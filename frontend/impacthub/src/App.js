@@ -14,8 +14,7 @@ import Organiser from './pages/Organiser';
 import { Button } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
 
-
-
+import navbar from './NavBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
@@ -26,7 +25,7 @@ export default function App() {
     <Router>
             
            <div className="App">
-      
+            <navbar/>
            <Routes>
                  <Route exact path='/' element={< ViewSelect />}></Route>
                  <Route exact path='/Organiser' element={< Organiser />}></Route>

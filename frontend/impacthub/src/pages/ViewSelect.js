@@ -49,12 +49,12 @@ function ViewSelect() {
 
      */ 
     return(
-    <div className='App'>
+    <div style={{ margin: 'auto',padding: '400px'}}>
    
    
       
-      <Link to="/Employee"><Button  variant="outlined" style={{padding:'1 rem'}}><h1>Find an Event</h1></Button></Link> 
-      <Link to="/Organiser"><Button  variant="outlined" style={{padding:' 1 rem'}}><h1>Post an Event</h1></Button></Link>
+      <Link to="/Employee"><Button  variant="outlined"  style={{margin: '10px'}} ><h1 >Find an Event</h1></Button></Link> 
+      <Link to="/Organiser"><Button  variant="outlined"><h1>Post an Event</h1></Button></Link>
     
       
     

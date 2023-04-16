@@ -3,6 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import React, { useEffect, useState } from "react";
 import Button from '@mui/material/Button';
 import { Container } from '@mui/material';
+import { lightBlue } from '@mui/material/colors';
 
 function Event() {
     
@@ -31,7 +32,7 @@ function Event() {
     return(
       
       <div>
-        <h5>TITLE</h5>
+        <h1 style={{color: 'lightBlue'}}>EVENT LIST </h1>
         {events.map(events=>(
       <Container style={{width: '1170px'}}>
       <VerticalTimeline key={events.eventID} lineColor={ "#616161" } layout={'2-columns'}>

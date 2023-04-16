@@ -15,9 +15,9 @@ function Employee() {
 
      */ 
     return(
-    <div>
+    <div style={{ position: 'static',padding: '300px'}}>
     
-      <Link to="/Event"><Button>EventList</Button></Link> 
+      <Link to="/Event"><Button variant='outlined' style={{margin: '20px'}} ><h1 >EVENT LIST</h1></Button></Link> 
       
     
 
