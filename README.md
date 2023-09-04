@@ -1,6 +1,28 @@
-# Impacthub
 
-This app was created with Bootify.io - tips on working with the code [can be found here](https://bootify.io/next-steps/). Feel free to contact us for further questions.
+## Impact Hub
+
+# Docker File 
+
+# DataBase Schema 
+
+# Features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Development
 
@@ -24,8 +46,3 @@ The application can then be started with the following command - here with the p
 java -Dspring.profiles.active=production -jar ./build/libs/impacthub-0.0.1-SNAPSHOT.jar
 ```
 
-## Further readings
-
-* [Gradle user manual](https://docs.gradle.org/)  
-* [Spring Boot reference](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)  
-* [Spring Data JPA reference](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)  
